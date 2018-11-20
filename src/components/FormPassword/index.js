@@ -21,13 +21,14 @@ class FormPassword extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
+    this.setState({ message: ''})
     this.props.form.validateFields((err, values) => {
       if (values.new_password !== values.new_password_t){
         this.setState({
           message: 'Las nuevas contraseñas no coinciden ',
         })
       }
-      if (!err) {        
+      if (!err) {
         ResourcePasswordRestart.put(values)
         .then((d) => {
           this.setState({
