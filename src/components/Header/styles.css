@@ -1,0 +1,23 @@
+.header-padding {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.btn-dropdown {
+  border: 0;
+}
+
+.line-vertical-header {
+  width: 1px;
+  height: 20px;
+  background: #DDDDDD;
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-right: 20px;
+}
+
+.user-details {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+}

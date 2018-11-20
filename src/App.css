@@ -1,0 +1,28 @@
+.container {
+  max-width: 1201px;
+  margin: auto;
+}
+
+.shadow-header {
+  box-shadow: 0 1px 8px 0 rgba(0,21,41,0.12);
+}
+
+.shadow-content {
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.08);
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.color-white {
+  background-color: #ffffff;
+}

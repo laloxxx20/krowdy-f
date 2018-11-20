@@ -1,0 +1,149 @@
+.padding-content {
+  padding: 10px;
+  margin-top: 8px !important;
+  padding-left: 36px;
+  padding-right: 15px;
+  padding-top: 49px;
+  padding-bottom: 28px;
+}
+
+h3 {
+  color: rgba(0,0,0,0.65);
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+p {
+  margin-bottom: 7px;
+  color: rgba(0,0,0,0.65);
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.data-time {
+  color: rgba(0,0,0,0.45);
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.line-vertical-content {
+  width: 1px;
+  height: 71px;
+  background: #DDDDDD;
+}
+
+.pencil {
+  margin-left: 10px;
+}
+
+.menu-horizontal {
+  color: #108EE9;
+}
+
+.ico-user-menu {
+  margin-right: 0 !important;
+}
+
+.header-collapse {
+  color: rgba(0,0,0,0.85);
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  padding: 12px 40px 12px 0;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .arrow {
+  left: inherit;
+  right: 20px;
+  border-radius: 15px;
+  background-color: rgba(0,0,0,0.25);
+  height: 20px;
+  width: 20px;
+  line-height: 2;
+  color: white;
+}
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+.login-form-button{
+  height: 32px;
+  width: 121px;
+  border-radius: 4px;
+  background-color: #108EE9;
+}
+
+.form-button-phone{
+  margin-top: 44px;
+  height: 32px;
+  width: 121px;
+  border-radius: 4px;
+  background-color: #108EE9;
+}
+
+.msg-create{
+  padding: 3px 0px 3px 10px;
+  border: 1px solid #A7E1C4;
+  border-radius: 4px;
+  background-color: #EBF8F2;
+  display: flex;
+}
+
+.checkmark {
+    display:inline-block;
+    padding-top: 5px;
+    width: 23px;
+    height:23px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_circle {
+    position: absolute;
+    width:17px;
+    height:17px;
+    background-color: #2cb62c;
+    border-radius:11px;
+    left:0;
+    top:4;
+
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:3px;
+    height:8px;
+    background-color:#fff;
+    left:8px;
+    top:9px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:3px;
+    height:3px;
+    background-color:#fff;
+    left:6px;
+    top:14px;
+}
+
+.msg-delete{
+  padding: 3px 0px 3px 10px;
+  border: 1px solid #A7E1C4;
+  border-radius: 4px;
+  background-color: #EBF8F2;
+  display: flex;
+  font-size: 12px;
+}
+
+.error-server{
+  color: #f5222d;
+}
